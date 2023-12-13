@@ -1,0 +1,72 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    display:inline grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("ary.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.input-box{
+   display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+    width: 450px;
+    border-radius: 8px;
+    padding:50px;
+    border: 5px solid rgba(218, 91, 154, 0.336);
+    font-size: 15px;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+   
+}
+.footer-tag{
+    margin-top: 165px;
+    word-spacing: 250px;
+    font-size:x-large;
+    background-color: white;
+    width: 1360px;
+}
+button{
+    width: 50%;
+    height: 40px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1em;
+    color: plum;
+    font-weight: 500;
+}
+.sub{
+    margin-left: 60px;
+}
+.input select{
+    background: rgb(236, 145, 198);
+    color:black;
+}
+.input input{
+    background: rgb(236, 145, 198);
+    color:black;
+}
+a{
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(222, 164, 245) ;
+}
